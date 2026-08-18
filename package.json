@@ -1,0 +1,20 @@
+{
+  "name": "fdcc-lions-membership",
+  "version": "1.0.0",
+  "description": "Automatic PlayHQ → member numbers → Mailchimp sync → Google Sheets logging",
+  "type": "module",
+  "main": "fdcc-membership-app-auto.js",
+  "scripts": {
+    "start": "node fdcc-membership-app-auto.js",
+    "dev": "node --watch fdcc-membership-app-auto.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "google-spreadsheet": "^4.1.1",
+    "node-fetch": "^3.3.0",
+    "node-cron": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
